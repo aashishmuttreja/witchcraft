@@ -19,6 +19,7 @@ export async function loadScripts(scriptUrl, tabId, frameId) {
 
     const metrics = new Metrics();
 
+    // ToDo
     // // load all scripts concurrently
     // const promises = scripts
     //     .map(script => loader.loadSingleScript(script, metrics)
